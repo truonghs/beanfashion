@@ -1,0 +1,20 @@
+.main {
+  min-height: 52vh;
+}
+.messageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.messageDesc {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.successMessage {
+  font-weight: 900;
+  font-size: 40px;
+  color: green;
+}

@@ -1,0 +1,165 @@
+.bodyWrap {
+    padding-bottom: 40px;
+}
+
+.container {
+    height: 54px;
+    background-color: whitesmoke;
+}
+
+.breadcrumb {
+    display: flex;
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-right: 350px;
+}
+
+.textTrangChu {
+    font-size: 15px;
+}
+
+.textLienHe {
+    font-size: 15px;
+    color: var(--hight-light-color);
+}
+
+.rightArrow {
+    height: 10px;
+    width: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.home {
+    display: flex;
+}
+
+.layoutContact {
+    padding-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.infoTitle {
+    padding-bottom: 15px;
+}
+
+.infoQuote {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.hotline {
+    display: flex;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phoneNumber {
+    color: var(--hight-light-color);
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.phoneNumber:hover {
+    color: var(--hover-color);
+}
+
+.emailInfo {
+    display: flex;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.email {
+    color: var(--hight-light-color);
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.email:hover {
+    color: var(--hover-color);
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    padding-bottom: 10px;
+}
+
+.nameEmail {
+    display: flex;
+}
+
+.inputNameEmail input {
+    height: 45px;
+    width: 293px;
+    border: 0.4px solid rgb(232, 229, 229);
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.inputNameEmail {
+    padding-right: 15px;
+}
+
+.inputPhone input {
+    height: 45px;
+    width: 600px;
+    border: 0.4px solid rgb(232, 229, 229);
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.inputPhone {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.inputContent input {
+    height: 150px;
+    width: 600px;
+    border: 0.4px solid rgb(232, 229, 229);
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.inputContent {
+    padding-bottom: 15px;
+}
+
+.submitInfo button {
+    background-color: #01567f;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 7px;
+}
+
+.submitInfo button:hover {
+    background-color: var(--hight-light-color);
+}
+
+.textFormMap {
+    display: flex;
+}
+
+.map {
+    padding-right: 10px;
+}
+
+.error-text {
+    display: block;
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+}

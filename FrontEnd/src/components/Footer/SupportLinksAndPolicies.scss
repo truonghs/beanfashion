@@ -1,0 +1,41 @@
+.page {
+    padding-top: 35px;
+    padding-left: 360px;
+    padding-bottom: 50px;
+    padding-right: 360px;
+}
+
+.container {
+    height: 54px;
+    background-color: whitesmoke
+}
+
+.breadcrumb {
+    display: flex;
+    padding-left: 360px;
+    padding-top: 20px;
+}
+
+.textTrangChu {
+    font-size: 15px;
+}
+
+.text {
+    font-size: 15px;
+    color: var(--hight-light-color);
+}
+
+.rightArrow {
+    height: 10px;
+    width: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.home {
+    display: flex;
+}
+
+.content {
+    font-size: 15px;
+}

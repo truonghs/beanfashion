@@ -1,0 +1,47 @@
+.sideBar {
+  width: 220px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 18px;
+}
+
+.greeting-user {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.greeting {
+  font-size: 20px;
+  font-weight: 900;
+  padding-right: 6px;
+}
+
+.user-name {
+  font-size: 20px;
+  color: var(--hover-color);
+  font-weight: 900;
+}
+.linkContainer {
+  margin: 10px 0px;
+}
+.linkBtn {
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  background: none;
+  color: black;
+  &:hover {
+    color: var(--hight-light-color);
+    cursor: pointer;
+  }
+  &:visited {
+    color: black;
+  }
+}
+.current {
+  color: var(--hight-light-color) !important;
+  font-weight: 700;
+  font-size: 18px;
+}

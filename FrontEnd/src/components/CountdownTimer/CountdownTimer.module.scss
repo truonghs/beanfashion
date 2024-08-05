@@ -1,0 +1,36 @@
+.count-down {
+    height: 100%;
+    width: 190px;
+    min-width: 100px;
+    text-align: center;
+}
+.count-down .title-km {
+    color: #000;
+    line-height: 28px;
+}
+
+.count-down .timer-view {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.count-down .timer-view .block-timer {
+    width: 35px;
+    height: 26px;
+    font-size: 18px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 5px;
+    background: #ad000c;
+}
+
+.block-timer p {
+    margin: 0;
+}

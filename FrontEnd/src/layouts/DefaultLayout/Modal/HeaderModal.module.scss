@@ -1,0 +1,124 @@
+.header__nav-modal-container {
+  display: block;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1001;
+  .header__nav-list-container {
+    position: relative;
+    padding: 10px 0;
+    background-color: var(--main-color);
+    text-align: center;
+    color: #fff;
+    .header__nav-list-title {
+      font-weight: 600;
+    }
+    .header__nav-icon-close {
+      font-size: 25px;
+      cursor: pointer;
+      padding: 2px 2px;
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .header__nav-list {
+    margin-left: 10px;
+    list-style: none;
+    .header__nav-icon {
+      font-size: 30px;
+      cursor: pointer;
+      display: inline-block;
+      padding: 2px 2px;
+    }
+    .header__nav-item {
+      position: relative;
+      min-height: 30px;
+      a {
+        display: inline-block;
+        color: #000;
+        width: 98%;
+        height: 100%;
+        padding: 5px 0;
+      }
+      font-weight: 500;
+      padding: 5px 0;
+      .header__nav-item-action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+          display: inline-block;
+          color: #000;
+          width: 96%;
+          padding: 5px 0;
+          text-transform: capitalize;
+        }
+      }
+      .header__nav-list-lv2 {
+        display: none;
+        list-style: none;
+        margin-left: 20px;
+        .header__nav-item-lv2 {
+          padding: 5px 0;
+        }
+      }
+      .header__nav-list-lv3 {
+        display: none;
+        margin-left: 20px;
+        .header__nav-item-lv3 {
+          a {
+            display: block;
+            padding: 5px 0;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
+.show_dropdown_lv2,
+.show_dropdown_lv3 {
+  display: block !important;
+}
+// @media screen and (max-width: 992px) {
+//   .header__nav-modal-container {
+//     display: block;
+//   }
+// }
+.space-bottom {
+  margin-bottom: 5px;
+}
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(- 100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.SlideInRight {
+  animation: slideInRight 0.5s ease-in-out forwards;
+}
+
+.SildeInLeft {
+  animation: slideInLeft 0.5s ease-in-out forwards;
+}

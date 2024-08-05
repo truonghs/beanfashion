@@ -1,0 +1,119 @@
+.category-aside-content-blog {
+  padding: 10px 15px 10px;
+  background-color: #f7f8f9;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.category-aside-content-blog .title-head {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.category-aside-content-blog .nav-category {
+  display: block;
+}
+
+.category-aside-content-blog .nav-category ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.category-aside-content-blog .relative {
+  position: relative !important;
+}
+// .nav-item {
+//     position: relative !important;
+// }
+
+.category-aside-content-blog .nav-category ul .nav-item {
+  margin: 0.5em 0;
+}
+
+.category-aside-content-blog .nav-category ul .nav-item .nav-link {
+  display: block;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333e44;
+}
+//===============================================================
+
+.category-aside-content-blog {
+  li {
+    text-align: -webkit-match-parent;
+  }
+  .category-aside-content-blog .nav-category ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  ul {
+    list-style: none outside;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  ul {
+    list-style-type: disc;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+//===============================================================
+.category-aside-content-blog .nav-category ul .menu_down {
+  padding-left: 10px !important;
+}
+
+// .relative {
+//     position: relative !important;
+// }
+
+.category-aside-content-blog .nav-category ul .nav-item .nav-linkpr-5 {
+  padding-right: 30px;
+}
+
+.category-aside-content-blog .nav-category ul .nav-item .nav-linkpr-5 {
+  display: block;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.category-aside-content-blog .nav-category ul .menu_down {
+  padding-left: 10px !important;
+}
+
+.category-aside-content-blog .category-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Định nghĩa animation */
+// @keyframes rotateIcon {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(180deg);
+//   }
+// }
+.category-aside-content-blog .category-title .fa-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-aside-content-blog .category-title .fa-plus {
+  transform: rotate(0deg);
+}
+
+.category-aside-content-blog .category-title .fa-minus {
+  transform: rotate(180deg);
+}

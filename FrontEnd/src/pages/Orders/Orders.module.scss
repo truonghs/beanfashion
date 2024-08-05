@@ -1,0 +1,75 @@
+.content {
+  display: flex;
+  justify-content: center;
+  min-height: 52vh;
+  width: 100%;
+}
+.wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.main {
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 16px;
+  font-weight: 800;
+  color: #01567f;
+}
+.ordersTable {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+.ordersHeading {
+  background-color: var(--hight-light-color);
+}
+.headingTilte {
+  color: #fff;
+  padding: 10px;
+  border: 0.4px solid #fff;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+.ordersBody {
+  // border: 0.8px solid rgba(0, 0, 0, 0.1);
+}
+.tableRow {
+  text-align: center;
+}
+.tableData {
+  border: 0.8px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  display: table-cell;
+  max-width: 400px;
+}
+.address {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.tableDataContainer {
+}
+.paid {
+  color: green;
+  font-weight: 500;
+}
+.noPaid {
+  color: red;
+  font-weight: 500;
+}

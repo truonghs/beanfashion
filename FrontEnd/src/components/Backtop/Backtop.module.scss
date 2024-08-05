@@ -1,0 +1,29 @@
+.backtop {
+    position: fixed;
+    z-index: 99;
+    top: auto;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    background: #01567f;
+    text-decoration: none;
+    // opacity: 0 !important;
+    right: 23px;
+    bottom: 160px;
+    cursor: pointer;
+}
+
+.backtop .icon-up {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    bottom: 13px;
+    right: 13px
+}

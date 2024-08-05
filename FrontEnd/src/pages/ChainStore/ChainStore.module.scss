@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+  height: 54px;
+  background-color: whitesmoke;
+  padding-left: 165px;
+}
+
+.breadcrumb {
+  display: flex;
+  // padding-top: 20px;
+}
+
+.text3 {
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.text1 {
+  padding-top: 20px;
+  display: flex;
+}
+
+.text2 {
+  color: var(--hight-light-color);
+  padding-left: 20px;
+  font-size: 15px;
+  padding-top: 19px;
+  font-weight: 500;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  padding-top: 25px;
+  max-width: 1200px;
+  padding-bottom: 50px;
+}
+
+.sorting {
+  width: 70%;
+}
+
+.side-bar {
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 600px;
+  width: 322px;
+  background-color: var(--hover-color);
+}
+
+// select {
+//   width: 100%;
+//   height: 30px;
+//   font-size: 14px;
+//   font-weight: 500;
+//   cursor: pointer;
+// }
+
+.town,
+.district,
+.province {
+  padding-bottom: 12px;
+  padding-left: 10px;
+}
+
+.map {
+  padding-left: 20px;
+}
+
+.province-sort,
+.town-sort,
+.district-sort {
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  padding-right: 5px;
+}
+
+.province-sort select,
+.town-sort select,
+.district-sort select {
+  font-family: inherit;
+  padding: 1rem;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 100%;
+}
+
+.store-location-container {
+  margin-top: 15px;
+  max-height: 380px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.store-location-box {
+  background: #fff;
+  padding: 0px;
+  line-height: 24px;
+  border-bottom: dashed 1px #F2F2F2;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.store-location-name {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.store-location-name h6 {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+.store-location-name span {
+  position: relative;
+  font-size: 13px;
+  padding-left: 20px;
+  color: #222b3c;
+  width: 100%;
+  display: inline-block;
+}
+
+.store-location-name .icon {
+  top: 7px;
+  left: 0;
+  position: absolute;
+  color: var(--hover-color);
+}

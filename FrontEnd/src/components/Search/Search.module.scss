@@ -1,0 +1,207 @@
+.search-suggest {
+  display: inline-block;
+  top: 100%;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+}
+.search-title {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding-left: 18px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+.search-list {
+  position: relative;
+  border-collapse: separate;
+}
+.search-item {
+  width: auto;
+  display: inline-block;
+  padding: 3px 5px;
+  line-height: normal;
+  background-color: #f5f5f5;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+}
+.list-search {
+  position: relative;
+}
+.list-search .product-smart:first-child {
+  margin-top: 5px;
+}
+.product-smart {
+  display: flex;
+  padding: 0 0 8px;
+  border-bottom: 1px solid #ededed;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.product-smart__info {
+  width: 74%;
+}
+.product-smart__image {
+  width: 26%;
+}
+.image-thumb {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 50%;
+  height: auto;
+}
+.product-smart__info_name a {
+  display: -webkit-box; /* Sử dụng kiểu block cho phần tử */
+  -webkit-line-clamp: 2; /* Số dòng tối đa mà phần tử có thể hiển thị */
+  -webkit-box-orient: vertical; /* Chiều dọc cho phần tử */
+  overflow: hidden; /* Ẩn phần nội dung vượt quá kích thước của phần tử */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." nếu nội dung quá dài */
+  width: 100%; /* Đảm bảo phần tử chiếm toàn bộ chiều rộng của phần tử cha */
+
+  text-overflow: ellipsis;
+  font-size: 15px;
+  text-decoration: none;
+  color: #333e44;
+  font-weight: 400;
+  margin: 0 0 3px;
+  padding-bottom: 3px;
+}
+.price-box {
+  padding-right: 5px;
+  color: #01567f;
+  font-weight: 600;
+}
+.compare-price {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: #9e9e9e;
+  font-weight: 300;
+}
+.product-search-see-all {
+  border-top: 1px solid #ededed;
+  text-align: center;
+  padding: 4px;
+}
+.see-all-search {
+  display: inline-block;
+  padding: 5px;
+  color: #000;
+  width: 100%;
+}
+
+// Newwwwwwwwwwww
+
+.clear,
+.loading {
+  position: absolute;
+  left: calc(var(--search-btn-width) + 16px);
+  top: 50%;
+  transform: translateY(-50%);
+  border: none !important;
+}
+@keyframes spiner {
+  from {
+    transform: translateY(-50%) rotate(0);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+.loading {
+  padding: 0 20px;
+  color: var(--main-color);
+  animation: spiner 0.8s linear infinite;
+}
+.search-wrapper {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+  max-height: min(100vh - 96px - 60px, 734px);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result {
+  position: absolute;
+  right: -210px;
+  width: 385px;
+  top: -6px;
+}
+
+.search__input-container {
+  display: flex;
+  border-radius: 6px;
+}
+.search__input {
+  background-color: #f3f3f3;
+  font-size: 15px;
+  min-width: 350px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-left: 18px;
+}
+.search__btn {
+  padding: 8px;
+  color: #13131391;
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+    cursor: pointer;
+  }
+  &:active {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+  border-radius: 4px;
+  border-left: 1px solid #e3dada;
+}
+.icon-style {
+  font-size: 18px;
+  font-weight: 100;
+}
+// REsponsive
+@media screen and (max-width: 1200px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+  .search__input {
+    min-width: 100px;
+  }
+  .search-result {
+    position: absolute;
+    right: -138px;
+    width: 245px;
+    top: -6px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .search__input-container {
+    width: 100%;
+    .search__input {
+      width: 100%;
+    }
+  }
+  .search-result {
+    right: -392px;
+    width: 750px;
+    top: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-result {
+    right: -202px;
+    width: 369px;
+    top: 48px;
+  }
+}

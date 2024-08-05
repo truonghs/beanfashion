@@ -1,0 +1,87 @@
+.content {
+  display: flex;
+  justify-content: center;
+  min-height: 52vh;
+  width: 100%;
+}
+.wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.main {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.change-pass {
+  font-size: 15px;
+  padding-bottom: 20px;
+  color: var(--hight-light-color);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 16px;
+  font-weight: 800;
+  color: #01567f;
+}
+.require {
+  color: red;
+}
+.content-text {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.content-input {
+  margin-bottom: 10px;
+  border: 0.4px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  border-radius: 7px;
+  width: 440px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content-input input {
+  padding: 12px;
+  text-align: left;
+  width: 400px;
+  font-size: 15px;
+  color: black;
+  margin-left: 10px;
+}
+.change-pass-button {
+  padding-top: 20px;
+}
+
+.change-pass-button button {
+  padding: 17px;
+  color: #fff;
+  background-color: var(--hover-color);
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 7px;
+
+  &:hover {
+    background-color: #fff;
+    color: var(--hover-color);
+    border: var(--hover-color) solid 1px;
+    cursor: pointer;
+  }
+}
+.eye {
+  padding: 6px;
+  user-select: none;
+}
+.eye:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
